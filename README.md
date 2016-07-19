@@ -4,4 +4,4 @@
 #### Game Vitals:
 + Ruby 2.3.0
 + gem 'Gosu'
-+ gem 'chimpmunk'
++ gem 'chipmunk'
