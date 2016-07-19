@@ -20,7 +20,7 @@ class WhackARuby < Gosu::Window
     @playing = true
     @start_time = 0
   end
-  
+
   def draw
     if @visible > 0
       @image.draw(@x - @width/2, @y - @height/2, 1)
@@ -72,7 +72,7 @@ class WhackARuby < Gosu::Window
         end
       end
     else
-      if (id == Gosu::KdSpace)
+      if (id == Gosu::KbSpace)
         @playing = true
         @visible = -10
         @start_time = Gosu.milliseconds
